@@ -1,0 +1,1587 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+
+.form1
+{
+    background-color:#331500;
+    padding-top:1%;
+    padding-bottom:2%;
+}
+.form1 p
+{
+    color: #fff;
+    font-size:28px;
+}
+.ip
+{
+    width:15%;
+    background-color:transparent;
+    height:40px;
+    padding-left:1%;
+    border:1px solid #fff;
+    margin-left:20px;
+}
+.ip-btn
+{
+    width:15%;
+    background-color: #fff;
+    border:1px solid black;
+    height:50px;
+    border-radius: 0px;
+    font-size:22px;
+    font-weight: bolder;
+    margin-left:30px;
+}
+.ip-btn:hover
+{
+    color:black;
+}
+@media(max-width: 600px){
+   .form1
+    {
+        padding-top:1%;
+        padding-bottom: 3%;
+    }
+    .form1 p
+    {
+        margin-top: 10px;
+        margin-bottom: -10px;
+        font-size:25px;
+    }
+    .ip
+    {
+        width:90%;
+        height:45px;
+        margin-left:0px;
+        margin-top: 5%;
+    }
+    .ip-btn
+    {
+        width:70%;
+        height:50px;
+        font-size:20px;
+        margin-left:0px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+/****************************************nav bar *****************************/
+
+.logo
+{
+  margin-left: 40px;
+  width: 300px;
+}
+
+.navbar a:hover
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.ntr
+{
+    margin-left: auto;
+    margin-right: 50px;
+	font-size:17px;
+}
+
+.ntext
+{
+    color:white;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+
+.cnav
+{
+background-color:#92434300;
+width: 100%;
+}
+
+/**************************************************************************** Header ******************************************************************************/
+
+.banner1
+{
+    background-image: url(../images/banner1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height:600px;
+}
+
+.bannertext1
+{
+    font-size:50px;
+    color: #331600;
+    margin: 190px 0px 0px 90px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.bannertext2
+{
+    font-size: 20px;
+    color: #393939;
+    margin: 10px 0px 0px 90px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+
+
+.box3
+{
+    background-color:#e8e8e8;
+}
+
+.bgsmbox1
+{
+    background-color: #c0b596;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bgsmbox2
+{
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+.boximg1
+{
+    width:100px;
+    padding:10px;
+    margin-left: -10px;
+}
+
+.boxtext1
+{
+    color: #c0b596;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.boxtext2
+{
+    color: #4b3a3f;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.boximg2
+{
+    width:100px;    
+    height:100px;
+    padding:10px;
+    margin-left: -10px;
+}
+
+
+.boximg3
+{
+    width:100px;    
+    height:100px;
+    padding:10px;
+    margin-left: -10px;
+}
+
+/*********************************************************************** About Us ******************************************************/
+
+.aboutusimg
+{
+    width: 70%;
+    margin-top:50px;
+    height: 310px;
+    float:right;
+}
+
+.aboutus
+{
+    font-size: 35px;
+    color: #4b3a3f;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.aboutext
+{
+
+    text-align: justify;
+}
+
+.aboutext1
+{
+
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.aboutsubhead
+{
+    font-size:20px;
+    color: #4b3a3f;
+    font-weight: bold;  
+}
+
+.aboutusimg1
+{
+    width: 100%;
+    height: 410px;
+}
+
+
+/**************************************************************************** Header ******************************************************************************/
+
+.banner2
+{
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    width: 100%;
+    height:700px;
+}
+
+/*************************************************************************** service ******************************************************************************/
+.service
+{
+    font-size: 35px;
+    color: #4b3a3f;
+    font-weight: bold;
+    padding-top:30px;
+    text-align: center;
+}
+
+.serviceimg1
+{
+    width: 100px;
+    margin-top:60px;
+}
+
+.srvsubhead
+{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4b3a3f;
+}
+
+.servicetext
+{
+    font-size: 17px;
+}
+
+
+.servicetext6
+{
+    font-size: 17px;
+}
+
+
+.serviceimg2
+{
+    width: 100px;
+    margin-top:35px;
+}
+
+
+.serviceimg3
+{
+    width: 100px;
+    margin-top:35px;
+}
+
+.serviceimg4
+{
+    width: 90px;
+    margin-top:30px;
+}
+
+.serviceimg5
+{
+    width: 90px;
+    margin-top:30px;
+}
+
+
+.serviceimg6
+{
+    width: 90px;
+    margin-top:30px;
+}
+
+/*************************************************************************** Legal Counsel  ******************************************************************************/
+
+
+.hammerhead
+{
+    color: #4b3a3f;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.hammertext
+{
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.hammerimg
+{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+/******8******************************************************Footer************************************************************************/
+
+
+.footerbox
+{
+    background-color:#000000;
+    width:100%;
+    height: 450px;
+    margin-top: 0px;
+}
+
+.headfooter
+{
+    font-size:18px;
+    font-weight: bold;
+    color: #eeeeee; 
+	margin-left:20px; 
+}
+
+.footertext1
+{
+    margin-top:20px; 
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+.footertext
+{
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+
+.footertext3
+{
+    margin-bottom: 5px;
+    color: #ffffff;
+	margin:10px 0px 20px 20px;
+}
+
+.footer6
+{
+    margin-top: 90px;
+}
+
+.footerbox a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerbox a:hover
+{
+    color: #ffffff;
+}
+/************************************************************************************************************************************************************/
+/************************************************************************************************************************************************************/
+@media(max-width: 1260px){
+    .banner1
+    {
+        background-image: url(../images/banner1.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height:500px;
+    }
+    .bannertext1
+    {
+        font-size:40px;
+        color: #331600;
+        margin: 190px 0px 0px 90px;
+        font-family: 'Poppins';
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .bannertext2
+    {
+        font-size:19px;
+        color: #393939;
+        margin: 10px 0px 0px 90px;
+        font-family: 'Poppins';
+        letter-spacing: 1px;
+        line-height: 33px;
+    }
+
+}
+
+@media only screen and (min-width:220px) and (max-width:780px)
+{
+.logo
+{
+  margin-left:5px;
+  width: 200px;
+}
+
+.banner1
+{
+    background-image: url(../images/bannerm1.jpg);
+    background-size: cover;
+    width: 100%;
+    height:650px;
+}
+
+.bannertext1
+{
+font-size:33px;
+color: #ffffff;
+text-align: center;
+margin: 220px 0px 0px 0px;
+}
+
+.bannertext2
+{
+    font-size:18px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+/**************************************************************************************************************/
+
+.bgsmbox1
+{
+    background-color: #c0b596;
+    margin: 10px 0px 0px 0px;
+}
+
+.bgsmbox2
+{
+    background-color: #c0b596;
+    margin: 10px 0px 0px 0px;
+}
+
+.bgsmbox2
+{
+    background-color: #ffffff;
+    margin: 0px 0px 10px 0px;
+}
+
+.boximg1
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxtext1
+{
+    color: #c0b596;
+    font-size: 16px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+.boxtext2
+{
+    color: #4b3a3f;
+    font-size:20px;
+    font-weight: bold;
+    margin: -10px 0px 20px 0px;
+    text-align: center;
+}
+
+.boximg2
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.boximg3
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*********************************************************************** About Us ******************************************************/
+.aboutusimg
+{
+    width:75%;
+    margin:30px 30px 0px 0px;
+    height: 250px;
+
+}
+
+.aboutus
+{
+    font-size: 30px;
+    color: #4b3a3f;
+    font-weight: bold;
+    margin-top:20px;
+    text-align: center;
+}
+
+.aboutext
+{
+
+    text-align: justify;
+    margin: 0px 5px 0px 5px;
+}
+
+.aboutext1
+{
+
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.aboutsubhead
+{
+    font-size:20px;
+    color: #4b3a3f;
+    font-weight: bold;  
+    margin-top: 20px;
+    margin: 15px 0px 0px 5px;
+}
+
+.aboutusimg1
+{
+    width: 75%;
+    height: 250px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**************************************************** Service ************************************************************/
+
+
+.banner2
+{
+    background-image: url(../images/bannerm2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+
+.service
+{
+    font-size: 30px;
+    color: #4b3a3f;
+    font-weight: bold;
+    padding-top:15px;
+    text-align: center;
+}
+
+.serviceimg1
+{
+    width: 100px;
+    margin-top:6=30px;
+}
+
+.srvsubhead
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4b3a3f;
+}
+
+.servicetext
+{
+    font-size: 16px;
+}
+
+.servicetext6
+{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.serviceimg2
+{
+    width: 100px;
+    margin-top:25px;
+}
+
+
+.serviceimg3
+{
+    width: 100px;
+    margin-top:25px;
+}
+
+.serviceimg4
+{
+    width: 90px;
+    margin-top:25px;
+}
+
+.serviceimg5
+{
+    width: 90px;
+    margin-top:25px;
+}
+
+
+.serviceimg6
+{
+    width: 90px;
+    margin-top:25px;
+}
+/*************************************************************************** Legal Counsel  ******************************************************************************/
+
+
+.hammerhead
+{
+    color: #4b3a3f;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+.hammertext
+{
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.hammerimg
+{
+    width: 75%;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/******8******************************************************Footer************************************************************************/
+
+
+.footerbox
+{
+    background-color:#000000;
+    width:100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.headfooter
+{
+    font-size:18px;
+    font-weight: bold;
+    color: #eeeeee; 
+	margin-left:20px; 
+}
+
+.footertext1
+{
+    margin-top:20px; 
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+.footertext
+{
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+
+.footertext3
+{
+    margin-bottom: 5px;
+    color: #ffffff;
+	margin:10px 0px 20px 20px;
+}
+
+.footer6
+{
+    margin-top: 30px;
+}
+
+.footerbox a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerbox a:hover
+{
+    color: #ffffff;
+}
+
+} 
+
+
+@media only screen and (min-width:481px) and (max-width:767px)
+{
+.logo
+{
+  margin-left:5px;
+  width: 320px;
+}
+
+/**************************************************************************************************************/
+
+.box3
+{
+    background-color: #ffffff;
+} 
+.bgsmbox1
+{
+    background-color: #ffffff;
+    margin: 10px 0px 0px 0px;
+}
+
+.bgsmbox2
+{
+
+    margin: 10px 0px 0px 0px;
+}
+
+.bgsmbox2
+{
+
+    margin: 0px 0px 10px 0px;
+}
+
+.boximg1
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxtext1
+{
+    color: #c0b596;
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.boxtext2
+{
+    color: #4b3a3f;
+    font-size:24px;
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+.boximg2
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.boximg3
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*********************************************************************** About Us ******************************************************/
+.aboutusimg
+{
+    width: 65%;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.aboutus
+{
+    font-size: 35px;
+    color: #4b3a3f;
+    font-weight: bold;
+    margin-top:20px;
+    text-align: center;
+}
+
+.aboutext
+{
+
+    text-align: justify;
+    margin: 0px 5px 0px 5px;
+}
+
+.aboutext1
+{
+
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.aboutsubhead
+{
+    font-size:20px;
+    color: #4b3a3f;
+    font-weight: bold;  
+    margin-top: 20px;
+    margin: 15px 0px 0px 5px;
+}
+
+.aboutusimg1
+{
+    width: 75%;
+    height:350px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**************************************************** Service ************************************************************/
+
+
+.banner2
+{
+    background-image: url(../images/bannerm2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+
+.service
+{
+    font-size: 30px;
+    color: #4b3a3f;
+    font-weight: bold;
+    padding-top:15px;
+    text-align: center;
+}
+
+.serviceimg1
+{
+    width: 100px;
+    margin-top:6=30px;
+}
+
+.srvsubhead
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4b3a3f;
+}
+
+.servicetext
+{
+    font-size: 16px;
+}
+
+.servicetext6
+{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.serviceimg2
+{
+    width: 100px;
+    margin-top:25px;
+}
+
+
+.serviceimg3
+{
+    width: 100px;
+    margin-top:25px;
+}
+
+.serviceimg4
+{
+    width: 90px;
+    margin-top:25px;
+}
+
+.serviceimg5
+{
+    width: 90px;
+    margin-top:25px;
+}
+
+
+.serviceimg6
+{
+    width: 90px;
+    margin-top:25px;
+}
+/*************************************************************************** Legal Counsel  ******************************************************************************/
+
+
+.hammerhead
+{
+    color: #4b3a3f;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+.hammertext
+{
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.hammerimg
+{
+    width: 75%;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/******8******************************************************Footer************************************************************************/
+
+
+.footerbox
+{
+    background-color:#000000;
+    width:100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.headfooter
+{
+    font-size:18px;
+    font-weight: bold;
+    color: #eeeeee; 
+	margin-left:20px; 
+}
+
+.footertext1
+{
+    margin-top:20px; 
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+.footertext
+{
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+
+.footertext3
+{
+    margin-bottom: 5px;
+    color: #ffffff;
+	margin:10px 0px 20px 20px;
+}
+
+.footer6
+{
+    margin-top: 30px;
+}
+
+.footerbox a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerbox a:hover
+{
+    color: #ffffff;
+}
+
+} 
+
+/*************************************************************************************************************************************************************/
+/*************************************************************************************************************************************************************/
+
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+.logo
+{
+  margin-left:5px;
+  width: 360px;
+}
+
+.banner1
+{
+    background-image: url(../images/bannerm1.jpg);
+    background-size: cover;
+    width: 100%;
+    height:700px;
+}
+
+.bannertext1
+{
+font-size:50px;
+color: #ffffff;
+font-family: 'Cardo', serif;
+text-align: center;
+margin: 250px 0px 0px 0px;
+}
+
+.bannertext2
+{
+    font-size:55px;
+    color: #ffffff;
+    font-family: 'Cardo', serif;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+/**************************************************************************************************************/
+
+.box3
+{
+    background-color: #ffffff;
+} 
+.bgsmbox1
+{
+    background-color: #ffffff;
+    margin: 10px 0px 0px 0px;
+}
+
+.bgsmbox2
+{
+
+    margin: 10px 0px 0px 0px;
+}
+
+.bgsmbox2
+{
+
+    margin: 0px 0px 10px 0px;
+}
+
+.boximg1
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxtext1
+{
+    color: #c0b596;
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.boxtext2
+{
+    color: #4b3a3f;
+    font-size:24px;
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+.boximg2
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.boximg3
+{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*********************************************************************** About Us ******************************************************/
+.aboutusimg
+{
+    width: 65%;
+    margin-top: 10px;
+    height: 450px;
+    margin-right:100px;
+}
+
+.aboutus
+{
+    font-size: 35px;
+    color: #4b3a3f;
+    font-weight: bold;
+    margin-top:20px;
+    text-align: center;
+}
+
+.aboutext
+{
+
+    text-align: justify;
+    margin: 0px 5px 0px 5px;
+}
+
+.aboutext1
+{
+
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.aboutsubhead
+{
+    font-size:20px;
+    color: #4b3a3f;
+    font-weight: bold;  
+    margin-top: 20px;
+    margin: 15px 0px 0px 5px;
+}
+
+.aboutusimg1
+{
+    width: 75%;
+    height:450px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**************************************************** Service ************************************************************/
+
+
+.banner2
+{
+    background-image: url(../images/bannerm2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+
+.service
+{
+    font-size: 35px;
+    color: #4b3a3f;
+    font-weight: bold;
+    padding-top:15px;
+    text-align: center;
+}
+
+.serviceimg1
+{
+    width: 110px;
+    margin-top:30px;
+}
+
+.srvsubhead
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4b3a3f;
+}
+
+.servicetext
+{
+    font-size: 16px;
+}
+
+.servicetext6
+{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.serviceimg2
+{
+    width: 110px;
+    margin-top:25px;
+}
+
+
+.serviceimg3
+{
+    width: 110px;
+    margin-top:25px;
+}
+
+.serviceimg4
+{
+    width: 110px;
+    margin-top:25px;
+}
+
+.serviceimg5
+{
+    width: 110px;
+    margin-top:25px;
+}
+
+
+.serviceimg6
+{
+    width: 110px;
+    margin-top:25px;
+}
+/*************************************************************************** Legal Counsel  ******************************************************************************/
+
+
+.hammerhead
+{
+    color: #4b3a3f;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+.hammertext
+{
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.hammerimg
+{
+    width: 75%;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/******8******************************************************Footer************************************************************************/
+
+
+.footerbox
+{
+    background-color:#000000;
+    width:100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.headfooter
+{
+    font-size:18px;
+    font-weight: bold;
+    color: #eeeeee; 
+	margin-left:20px; 
+}
+
+.footertext1
+{
+    margin-top:20px; 
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+.footertext
+{
+    margin-bottom: 5px;
+    color: #eeeeee;
+	margin-left:20px;
+}
+
+
+.footertext3
+{
+    margin-bottom: 5px;
+    color: #ffffff;
+	margin:10px 0px 20px 20px;
+}
+
+.footer6
+{
+    margin-top: 30px;
+}
+
+.footerbox a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerbox a:hover
+{
+    color: #ffffff;
+}
+
+} 
+
+
+/*************************************************************************************************************************************************************/
+/*************************************************************************************************************************************************************/
+
+@media only screen and (min-width:992px) and (max-width:1024px)
+{
+.logo
+{
+  margin-left:5px;
+  width: 360px;
+}
+
+
+.box3
+{
+    background-color:#e8e8e8;
+}
+
+.bgsmbox1
+{
+    background-color: #c0b596;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bgsmbox2
+{
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+.boximg1
+{
+    width:100px;
+    padding:10px;
+    margin-left: -10px;
+}
+
+.boxtext1
+{
+    color: #c0b596;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.boxtext2
+{
+    color: #4b3a3f;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.boximg2
+{
+    width:100px;    
+    height:100px;
+    padding:10px;
+    margin-left: -10px;
+}
+
+
+.boximg3
+{
+    width:100px;    
+    height:100px;
+    padding:10px;
+    margin-left: -10px;
+}
+
+/*********************************************************************** About Us ******************************************************/
+
+.aboutusimg
+{
+    width:100%;
+    margin-top:100px;
+    height: 310px;
+    float:right;
+}
+
+.aboutus
+{
+    font-size: 35px;
+    color: #4b3a3f;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.aboutext
+{
+
+    text-align: justify;
+}
+
+.aboutext1
+{
+
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.aboutsubhead
+{
+    font-size:20px;
+    color: #4b3a3f;
+    font-weight: bold;  
+}
+
+.aboutusimg1
+{
+    width: 100%;
+    height: 380px;
+    margin-top:60px;
+}
+
+
+/**************************************************************************** Header ******************************************************************************/
+
+.banner2
+{
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    width: 100%;
+    height:700px;
+}
+
+/*************************************************************************** service ******************************************************************************/
+.service
+{
+    font-size: 35px;
+    color: #4b3a3f;
+    font-weight: bold;
+    padding-top:30px;
+    text-align: center;
+}
+
+.serviceimg1
+{
+    width: 100px;
+    margin-top:60px;
+}
+
+.srvsubhead
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4b3a3f;
+}
+
+.servicetext
+{
+    font-size: 16px;
+}
+
+
+.servicetext6
+{
+    font-size: 17px;
+}
+
+
+.serviceimg2
+{
+    width: 100px;
+    margin-top:35px;
+}
+
+
+.serviceimg3
+{
+    width: 100px;
+    margin-top:35px;
+}
+
+.serviceimg4
+{
+    width: 90px;
+    margin-top:30px;
+}
+
+.serviceimg5
+{
+    width: 90px;
+    margin-top:30px;
+}
+
+
+.serviceimg6
+{
+    width: 90px;
+    margin-top:30px;
+}
+
+/*************************************************************************** Legal Counsel  ******************************************************************************/
+
+
+.hammerhead
+{
+    color: #4b3a3f;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.hammertext
+{
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.hammerimg
+{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+}
