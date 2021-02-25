@@ -19,4 +19,4 @@ application/logs/*
 #-------------------------
 # Do Not Upload Files
 #-------------------------
-# 1.doNotUpload/*
+1.doNotUpload/*
