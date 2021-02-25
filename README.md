@@ -1,7 +1,7 @@
 # ac_website
 
 
-## About Codeigniter 4 Authentication and User Management System
+## About 808biz Business Builder w/ Ci4 and User Management System
 A simple and free intro website for a/c contractors using CodeIgniter 4
 
 Benefits:
@@ -11,7 +11,7 @@ Benefits:
 - Pre-built Profile page
 - Pre-built Settings page
 - User login, User registration, Recover password functions
-- User acess logs for tracking
+- User access logs for tracking
 - User Management: Register, Modify, and Delete users
 
 808biz Business Builder w/ Ci4 provides complete basic authentication system, account viewing, profile editing, and dashboard viewing.
