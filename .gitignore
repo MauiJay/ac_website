@@ -11,10 +11,11 @@ user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
 #codeigniter 4
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+app/writable/logs/*
+!app/writable/logs/index.html
+!app/writable/logs/.htaccess
 /vendor/
+public/assets/*
 
 #-------------------------
 # Do Not Upload Files
