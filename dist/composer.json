@@ -5,8 +5,10 @@
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",
 	"require": {
-		"php": "^7.3||^8.0",
-		"codeigniter4/framework": "^4"
+		"php": "^8.1",
+		"codeigniter4/framework": "^4.0",
+    "codeigniter4/shield": "^1.0",
+    "firebase/php-jwt": "^6.4"
 	},
 	"require-dev": {
 		"fakerphp/faker": "^1.9",
@@ -37,5 +39,8 @@
 		"forum": "http://forum.codeigniter.com/",
 		"source": "https://github.com/codeigniter4/CodeIgniter4",
 		"slack": "https://codeigniterchat.slack.com"
-	}
+	},   
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "version": "1.5.0"
 }

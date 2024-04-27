@@ -16,7 +16,8 @@ app/writable/logs/*
 !app/writable/logs/.htaccess
 /vendor/
 public/assets/*
-
+.env
+/tests/
 #-------------------------
 # Do Not Upload Files
 #-------------------------
